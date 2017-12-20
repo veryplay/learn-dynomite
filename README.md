@@ -145,6 +145,7 @@ LRANGE_600 (first 600 elements): 14967.82 requests per second
 
 ### redis-benchmark against dynomite proxing redis-server
 
+
 ```bash
 src/redis-benchmark -h 127.0.0.1 -q -t set,get,incr,lpush,lpop,sadd,spop,lpush,lrange -c 100 -p 8000
 SET: 154083.20 requests per second
