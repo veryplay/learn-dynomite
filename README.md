@@ -1,5 +1,13 @@
 # dynomite
 
+## Note
+
+redis : <https://github.com/Netflix/dynomite/blob/dev/notes/redis.md>
+
+recommendation : <https://github.com/Netflix/dynomite/blob/dev/notes/recommendation.md>
+
+memcache : <https://github.com/Netflix/dynomite/blob/dev/notes/memcache.txt>
+
 ## 调用链
 
 ![调用链](files/dynomite-architecture.png)
